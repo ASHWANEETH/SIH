@@ -1,0 +1,64 @@
+<html><head><title>LOGIN</title>
+<link rel="stylesheet" href="css/loginuni.css"></head>
+<body>
+<a href="index.html"><h4>Back to Home</h4></a>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1>
+			
+			<span>Enter University details</span>
+			<input type="text" placeholder="College Name"  required />
+			<select name="" id=""  required >
+				<option value="#">Type of College</option>
+				<option value="#">Private</option>
+				<option value="#">Govt</option>
+			</select>
+			<select name="" id=""  required >
+				<option value="#">City</option>
+				<option value="#">Bengaluru</option>
+				<option value="#">Mysuru</option>
+			</select>
+			<select name="" id=""  required >
+				<option value="#">State</option>
+				<option value="#">Karnataka</option>
+				<option value="#">Kashmir</option>
+			</select>
+			
+			<input type="number" name="" id=""  placeholder="Pin Code"  required >
+			<input type="password" placeholder="Password" required  />
+			
+			<button type="submit" formaction="loginuni.html">Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>LOGIN</h1>
+			
+			<span></span>
+			<input type="text" placeholder="College ID"  required  />
+			<input type="password" placeholder="Password"  required />
+			<a href="#">Forgot your password?</a>
+			<button type="submit" formaction="uniindex.html">Log IN</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>LOGIN</h1>
+				<p>If you already have account please login</p>
+				<button class="ghost" id="signIn">Log IN</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Create Account</h1>
+				<p>Dont have Account?</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="js/login.js"></script>
+</body>
+</html>
